@@ -44,6 +44,17 @@ def inserir_param(id, nome, sobrenome):
     cursor.close()
     connection.close()
 
+# Função Update
+def atualizar():
+    connection = get_connection()
+    cursor = conecction.cursor()
+    sql = "UPDATE <tabela> SET nome = 'Jennifer' WHERE id = 1"
+    cursor.execute()
+    conecction.commit()
+    print(f'Dados atualizados!')
+    cursor.close()
+    conecction.close()
+
 # Principal
 conecction = get_connection()
 print(f'Versão: {conecction.version}')
