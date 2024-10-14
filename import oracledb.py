@@ -13,4 +13,9 @@ def listar():
     sql = 'SELECT * FROM <tabela>'
     cursor.execute(sql)
 
-    for linha
+    for linha in cursor:
+        print(linha)
+
+# Connection.commit()
+cursor.close()
+connection.close()
