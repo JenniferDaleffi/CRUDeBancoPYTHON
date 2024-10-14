@@ -29,7 +29,7 @@ def inserir():
     sql = "INSERT INTO <tabela> VALUES (1, 'Jennifer', 'Vieira')"
     cursor.execute(sql)
     connection.commit()
-    print('Ddods Inseridos!')
+    print('Dados Inseridos!')
     cursor.close()
     connection.close()
 
