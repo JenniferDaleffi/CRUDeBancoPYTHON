@@ -38,3 +38,8 @@ def inserir_param(id, nome, sobrenome):
     connection = get_connection()
     cursor = connection.cursor()
     sql = "INSERT INTO <tabela> (id, nome, sobrenome) VALUES({id}, {nome}, {sobrenome})"
+    data = (id, nome, sobrenome)
+    cursor.execute(sql, data)
+    print(f'Dados inseridos!')
+    cursor.close()
+    connection.close()
