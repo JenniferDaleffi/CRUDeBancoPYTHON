@@ -55,6 +55,16 @@ def atualizar():
     cursor.close()
     conecction.close()
 
+# Função delete
+def apagar():
+    conncetion = get_connection()
+    cursor = conecction.cursor()
+    sql = "DELETE FROM <tabela> WHERE id = 1"
+    connection.commit()
+    print(f'Dados apagados!')
+    cursor.close
+    conecction.close()
+
 # Principal
 conecction = get_connection()
 print(f'Versão: {conecction.version}')
