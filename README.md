@@ -17,4 +17,4 @@ Este repositório contém um exemplo básico de como conectar-se a um banco de d
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu_usuario/seu_repositorio.git
+   git clone https://github.com/JenniferDaleffi/CRUDeBancoPYTHON.git
