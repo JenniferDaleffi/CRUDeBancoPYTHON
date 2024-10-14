@@ -3,7 +3,7 @@ import oracledb
 #função com Oracle Database
 def get_connection():
     try:
-        connection = oracledb.connect('rm557137/020106@oracle.fiap.com.br:1521/orcl')
+        connection = oracledb.connect('rm557137/password@oracle.fiap.com.br:1521/orcl')
         print('Conectado com o Oracle DB')
     except Exception as e:
         print(f'error obtaining a conncetion: {e}')
