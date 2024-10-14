@@ -43,3 +43,11 @@ def inserir_param(id, nome, sobrenome):
     print(f'Dados inseridos!')
     cursor.close()
     connection.close()
+
+# Principal
+conecction = get_connection()
+print(f'Versão: {conecction.version}')
+listar()
+Inserir()
+listar()
+inserir_param (5, 'Jennifer', 'Vieira')
