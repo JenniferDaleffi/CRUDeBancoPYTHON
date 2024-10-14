@@ -19,16 +19,4 @@ Este repositório contém um exemplo básico de como conectar-se a um banco de d
    ```bash
    git clone https://github.com/seu_usuario/seu_repositorio.git
 
-.background {
-    background-image: url('https://link-para-imagem-1.com');
-}
-
-.logo {
-    background-image: url('https://link-para-imagem-2.com');
-}
-
-.screenshot {
-    background-image: url('https://link-para-imagem-3.com');
-}
-
-
+<p align="center"><img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000"/></p>
