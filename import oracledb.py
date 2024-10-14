@@ -59,7 +59,8 @@ def atualizar():
 def apagar():
     conncetion = get_connection()
     cursor = conecction.cursor()
-    sql = "DELETE FROM <tabela> WHERE id = 1"
+    sql = "DELETE FROM <tabela> WHERE id = {1}"
+    cursor.execute(sql)
     connection.commit()
     print(f'Dados apagados!')
     cursor.close
